@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .hide-ele {
+    display: none;
+  }
+}
+
+.container-fluid {
+  height: 938px;
+}
+

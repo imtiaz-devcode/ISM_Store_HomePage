@@ -1,0 +1,7 @@
+.tooltip-inner {
+  max-width: none;
+  padding: 0.25rem;
+  background-color: var(--gray-dark);
+  border-radius: 0.25rem;
+}
+

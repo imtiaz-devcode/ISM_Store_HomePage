@@ -1,0 +1,53 @@
+.map-container {
+  position: relative;
+}
+
+.pointer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  top: 100px;
+  left: 150px;
+  animation: pulse 1s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.6);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(0.6);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.popup {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  top: 130px;
+  left: 80px;
+  display: none;
+}
+
+.pointer:hover + .popup {
+  display: block;
+}
+
+.city-label {
+  position: absolute;
+  top: 125px;
+  left: 145px;
+  color: black;
+}
+
