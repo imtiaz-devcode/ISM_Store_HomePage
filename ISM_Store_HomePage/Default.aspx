@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item" id="itmHRService" style="color: var(--bs-nav-tabs-link-active-bg); margin-left: 0px; margin-right: 15px;">
+                    <li class="nav-item" id="itmHRService" style="display:none;color: var(--bs-nav-tabs-link-active-bg); margin-left: 0px; margin-right: 15px;">
                         <div class="nav-item dropdown border-1 border-success shadow" style="width: 119.219px;">
                             <button class="btn btn-primary active dropdown-toggle d-xl-flex align-items-xl-center ms-2 me-4" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="false" type="button" style="padding-right: 6px; padding-left: 10px; background: var(--bs-link-hover-color); border-width: 0px; border-color: var(--bs-nav-link-disabled-color); height: 35px;">HR Services&nbsp;</button>
                             <div id="dvHRService" runat="server" class="dropdown-menu" style="border-top-left-radius: 6px; border-top-right-radius: 6px; margin-top: 3px;">
@@ -131,7 +131,7 @@
                         </div>
                     </li>
 
-                    <li class="nav-item" id="itmITService2" style="color: var(--bs-nav-tabs-link-active-bg); margin-left: 0px; margin-right: 15px;">
+                    <li class="nav-item" id="itmITService2" style="display:none;color: var(--bs-nav-tabs-link-active-bg); margin-left: 0px; margin-right: 15px;">
                         <div class="nav-item dropdown border-1 border-success shadow" style="width: 119.219px;">
                             <button class="btn btn-primary dropdown-toggle ms-2 me-4" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="false" type="button" style="padding-right: 9px; padding-left: 13px; background: var(--bs-link-hover-color); border-color: var(--bs-border-color-translucent);">IT Services Reports&nbsp;</button>
                             <div id="dvITService2" runat="server" class="dropdown-menu" style="border-top-left-radius: 6px; border-top-right-radius: 6px; margin-top: 3px;">
@@ -146,7 +146,7 @@
                 <div class="row d-flex d-xl-flex flex-row align-items-xl-start mt-5" style="margin-top: 0px; border-color: var(--bs-nav-tabs-link-active-color);">
                     <div class="col-8 col-sm-12 col-md-12 col-lg-8" style="text-align: center;">
                         <div class="shadow" style="padding: 0px; border-radius: 9px; border: 7px solid rgba(10,88,202,0.44);">
-                            <div class="video-container" style="border-radius: 9px; border-width: 3px;">
+                            <div id="dv_VideoContainer" runat="server" class="video-container" style="border-radius: 9px; border-width: 3px;">
                                 <video style="width: 100%" autoplay loop muted>
                                     <source src="Video/Promotional/Promotional.mp4" type="video/mp4" />
                                 </video>
